@@ -52,4 +52,4 @@ function mostrarFactura() {
 }
 
 // Ejecutar
-mostrarFactura();
+mostrarFactura ();
