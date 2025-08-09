@@ -17,7 +17,7 @@ public class App {
 
     // 4. Función "de expresión": porcentaje IVA
     public static int porcentajeIVA() {
-        return 19;
+        return 19; 
     }
 
     // 5. Función tipo "flecha" (en Java es un método corto)
