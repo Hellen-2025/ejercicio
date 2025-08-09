@@ -25,7 +25,7 @@ public class App {
         return consumoMensual() * tarifaBase();
     }
 
-    // 6. Función tipo "flecha": calcular IVA
+    // 6. Función tipo "flecha": calcular IVA 
     public static int calcularIVA() {
         return calcularSubtotal() * porcentajeIVA() / 100;
     }
