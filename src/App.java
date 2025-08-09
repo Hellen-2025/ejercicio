@@ -30,7 +30,7 @@ public class App {
         return calcularSubtotal() * porcentajeIVA() / 100;
     }
 
-    // 7. Función tipo "flecha": calcular total
+    // 7. Función tipo "flecha": calcular total 
     public static int calcularTotal() {
         return calcularSubtotal() + calcularIVA() + cargoFijo();
     }
