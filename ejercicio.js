@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // 1. Función declarativa: consumo mensual en kWh 
+=======
+// 1. Función declarativa: consumo mensual en kWh
+>>>>>>> 7ed2b10 (Se agrega función flecha calcularSubtotal para retornar consumo × tarifa)
 function consumoMensual() {
     let consumo = parseFloat(prompt("Ingrese su consumo mensual en kWh:"));
     return consumo;
@@ -44,7 +48,11 @@ function mostrarFactura() {
     const fijo = cargoFijo();
     const total = subtotal + ivaValor + fijo;
 
+<<<<<<< HEAD
     console.log(" FACTURA DE ENERGÍA");
+=======
+    console.log("📄 FACTURA DE ENERGÍA");
+>>>>>>> 7ed2b10 (Se agrega función flecha calcularSubtotal para retornar consumo × tarifa)
     console.log("Subtotal: $" + subtotal);
     console.log("IVA: $" + ivaValor);
     console.log("Cargo fijo: $" + fijo);
@@ -52,4 +60,8 @@ function mostrarFactura() {
 }
 
 // Ejecutar
+<<<<<<< HEAD
 mostrarFactura ();
+=======
+mostrarFactura();
+>>>>>>> 7ed2b10 (Se agrega función flecha calcularSubtotal para retornar consumo × tarifa)
