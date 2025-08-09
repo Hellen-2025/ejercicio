@@ -44,7 +44,7 @@ function mostrarFactura() {
     const fijo = cargoFijo();
     const total = subtotal + ivaValor + fijo;
 
-    console.log("📄 FACTURA DE ENERGÍA");
+    console.log(" FACTURA DE ENERGÍA");
     console.log("Subtotal: $" + subtotal);
     console.log("IVA: $" + ivaValor);
     console.log("Cargo fijo: $" + fijo);
