@@ -1,4 +1,4 @@
-// 1. Función declarativa: consumo mensual en kWh
+// 1. Función declarativa: consumo mensual en kWh 
 function consumoMensual() {
     let consumo = parseFloat(prompt("Ingrese su consumo mensual en kWh:"));
     return consumo;
